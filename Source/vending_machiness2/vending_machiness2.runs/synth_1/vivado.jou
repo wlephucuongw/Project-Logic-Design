@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Thu Dec 12 10:47:56 2024
+# Process ID: 4664
+# Current directory: E:/DATKLL/main_vending_machine/vending_machiness2/vending_machiness2/vending_machiness2.runs/synth_1
+# Command line: vivado.exe -log vending_machiness2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vending_machiness2.tcl
+# Log file: E:/DATKLL/main_vending_machine/vending_machiness2/vending_machiness2/vending_machiness2.runs/synth_1/vending_machiness2.vds
+# Journal file: E:/DATKLL/main_vending_machine/vending_machiness2/vending_machiness2/vending_machiness2.runs/synth_1\vivado.jou
+# Running On        :LEPHUCUONG-6A1
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8269 MB
+# Swap memory       :9843 MB
+# Total Virtual     :18112 MB
+# Available Virtual :4866 MB
+#-----------------------------------------------------------
+source vending_machiness2.tcl -notrace

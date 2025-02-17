@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Oct 24 16:58:28 2024
+# Process ID: 12352
+# Current directory: E:/DATKLL/vending_machiness2/vending_machiness2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19376 E:\DATKLL\vending_machiness2\vending_machiness2\vending_machiness2.xpr
+# Log file: E:/DATKLL/vending_machiness2/vending_machiness2/vivado.log
+# Journal file: E:/DATKLL/vending_machiness2/vending_machiness2\vivado.jou
+# Running On: LEPHUCUONG-6A1, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8269 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DATKLL/vending_machiness2/vending_machiness2/vending_machiness2.xpr
+update_compile_order -fileset sources_1
+close_project
+create_project project_1 E:/DATKLL/vdmcnew/project_1 -part xc7z020clg400-1
+file mkdir E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/Vending_Machine.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/Vending_Machine.v
+update_compile_order -fileset sources_1
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/insertID_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/insertID_module.v
+update_compile_order -fileset sources_1
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/insertQuantity_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/insertQuantity_module.v
+update_compile_order -fileset sources_1
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/checkID_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/checkID_module.v
+update_compile_order -fileset sources_1
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/checkQuantity_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/checkQuantity_module.v
+update_compile_order -fileset sources_1
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/calculate_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/calculate_module.v
+update_compile_order -fileset sources_1
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/payment_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/payment_module.v
+close [ open E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/delivery_module.v w ]
+add_files E:/DATKLL/vdmcnew/project_1/project_1.srcs/sources_1/new/delivery_module.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

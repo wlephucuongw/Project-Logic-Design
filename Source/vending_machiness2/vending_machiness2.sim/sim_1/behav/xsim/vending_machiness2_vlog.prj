@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../vending_machiness2.srcs/sources_1/new/calculate_moduless2.v" \
+"../../../../vending_machiness2.srcs/sources_1/new/check_moduless2.v" \
+"../../../../vending_machiness2.srcs/sources_1/new/input_moduless2.v" \
+"../../../../vending_machiness2.srcs/sources_1/new/insert_money_module_ss2.v" \
+"../../../../vending_machiness2.srcs/sources_1/new/insert_price.v" \
+"../../../../vending_machiness2.srcs/sources_1/new/payment_moduless2.v" \
+"../../../../vending_machiness2.srcs/sources_1/new/vending_machiness2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

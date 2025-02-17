@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Oct 24 17:27:00 2024
+# Process ID: 14812
+# Current directory: E:/DATKLL/vending_machiness2/vending_machiness2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33872 E:\DATKLL\vending_machiness2\vending_machiness2\vending_machiness2.xpr
+# Log file: E:/DATKLL/vending_machiness2/vending_machiness2/vivado.log
+# Journal file: E:/DATKLL/vending_machiness2/vending_machiness2\vivado.jou
+# Running On: LEPHUCUONG-6A1, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8269 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/DATKLL/vending_machiness2/vending_machiness2/vending_machiness2.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_vending_machiness2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_vending_machiness2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+close_sim
+launch_simulation
+source tb_vending_machiness2.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top vending_machiness2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top vending_machiness2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+close_sim
+launch_simulation
+source vending_machiness2.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_design synth_1
+close_design
+close_design
+close_sim
+launch_simulation
+source vending_machiness2.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_design synth_1
+current_design rtl_1
+current_design synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+close_sim
+launch_simulation
+source vending_machiness2.tcl
+close_design
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+close_sim
+launch_simulation
+source vending_machiness2.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_design synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_design synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+open_run synth_1 -name synth_1
+close_sim
+launch_simulation
+source vending_machiness2.tcl
+current_design rtl_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+current_design synth_1
+close_design
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+close_sim
